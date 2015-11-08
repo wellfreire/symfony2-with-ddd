@@ -1,0 +1,4 @@
+services:
+  user.app_service:
+    class:  SF2wDDD\AppBundle\Service\User\UserAppService
+    arguments: ["@repository.user"]

@@ -1,0 +1,3 @@
+services:
+  repository.user:
+    class:  SF2wDDD\Infrastructure\Persistence\Repository\User\InMemoryUserRepository
